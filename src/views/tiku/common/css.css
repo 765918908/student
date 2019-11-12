@@ -1,0 +1,21 @@
+.cell {
+  border: 1px solid #dfdfdf;
+  margin-bottom: 10px;
+}
+
+.cell-hd {
+  background-color: #f4f9ff;
+  line-height: 40px;
+  color: #808fa3;
+  padding: 0px 10px;
+}
+
+.cell-bd {
+  padding: 5px 10px;
+}
+
+.cell-ft {
+  background-color: #f4f9ff;
+  color: #808fa3;
+  padding: 5px 10px;
+}

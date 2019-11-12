@@ -1,0 +1,78 @@
+/* 通用的原子式样 */
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+
+
+.w1000{ width: 1000px;}
+.w800{ width: 800px;}
+.fz20{ font-size: 20px;}
+.fz18{ font-size: 18px;}
+
+/* 项目通用式样 */
+.scroll_wrapper{
+  height: 100%;overflow: auto;
+}
+
+/* 覆盖element 默认式样 */
+.el-submenu .el-menu{
+    background-color: #EEF1F6;
+}
+
+.el-submenu__title.is-active{
+    background-color: #3D49A2;
+}
+
+
+
+.el-table th {
+    background-color: #eef4fb;
+    color: #777;
+  }
+
+  .el-table td, .el-table th{
+      padding: 6px 0px;
+  }
+
+  .el-menu{
+    background: linear-gradient(to bottom, #3D4EB9 0%, #1E89E5 100%)
+  }
+
+  .el-menu-item {
+    height: 76px;
+    line-height: 25px;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    border: none;margin-bottom: 20px;
+  }
+
+  .el-submenu__title i{
+      color: #fff; font-size: 22px;
+  }
+
+  .el-menu-item.is-active{
+    color: #fff;
+    background-color: #3D4AA1;
+  }
+  .el-menu-item:hover{
+    background-color: #3D4AA1;
+      }
+
+.el-menu-item, .el-submenu__title{
+  line-height: 26px;
+}
+
+.el-submenu .el-menu-item{
+  line-height: 26px;
+  min-width: 0px;
+  margin: 20px 0px;
+  padding: 20px 20px;
+  height: 80px;
+}
+
+.el-submenu__title{
+  color: #fff;
+}
+
+
+  
